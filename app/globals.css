@@ -30,6 +30,10 @@ body {
   @apply relative z-10 flex justify-center items-center flex-col max-w-7xl mx-auto sm:px-16 px-6;
 }
 
+.page-title {
+  @apply text-5xl font-extrabold leading-[1.15] text-black sm:text-5xl;
+}
+
 /* TAILWIND HELPER CLASSES */
 /* Flexbox */
 .flex-center {
