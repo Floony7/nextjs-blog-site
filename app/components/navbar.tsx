@@ -2,14 +2,20 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
+import styled from 'styled-components';
+
+const NavLink = styled(Link)`
+  margin: 0 0.5em;
+  padding: 0 0.5em;
+`;
 
 const Navbar = () => {
   return (
-      <div className="bg-slate-500 flex justify-around w-2/3 py-2 px-2 my-2 text-white rounded">
-        <Link href='/'>Home</Link>
-        <Link href='/articles'>Articles</Link>
-        <Link href='/book-reviews'>Book Reviews</Link>
-        <Link href='/about'>About</Link>
+      <div className="flex justify-center py-4 px-2 text-white rounded">
+        <NavLink href='/'>Home</NavLink>
+        <NavLink href='/articles'>Articles</NavLink>
+        <NavLink href='/book-reviews'>Book Reviews</NavLink>
+        <NavLink href='/about'>About</NavLink>
       </div>
   )
 }

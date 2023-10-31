@@ -6,6 +6,11 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  --clr-ocean-100: #80e5de;
+  --clr-ocean-200: #56dcd3;
+  --clr-ocean-300: #23a9a0;
+  --clr-ocean-400: #1a7f78;
+  --clr-ocean-500: #115550;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -50,4 +55,10 @@ body {
 
 .flex-between {
   @apply flex justify-between items-center;
+}
+
+.header {
+background-color: var(--clr-ocean-300);
+-webkit-box-shadow: 0 0 2em rgba(0, 0, 0, 0.3);
+box-shadow: 0 0 2em rgba(0, 0, 0, 0.3);
 }
