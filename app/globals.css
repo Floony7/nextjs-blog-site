@@ -58,7 +58,7 @@ body {
 }
 
 .header {
-background-color: var(--clr-ocean-300);
+background-color: var(--clr-ocean-400);
 -webkit-box-shadow: 0 0 2em rgba(0, 0, 0, 0.3);
 box-shadow: 0 0 2em rgba(0, 0, 0, 0.3);
 }
