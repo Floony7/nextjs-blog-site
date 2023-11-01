@@ -17,7 +17,12 @@
   --clr-earth-300: #f33f6c;
   --clr-earth-400: #dd0e42;
   --clr-earth-500: #60061d;
-
+  --clr-neutral-100: #fff;
+  --clr-neutral-200: #dedede;
+  --clr-neutral-300: #ccc;
+  --clr-neutral-700: #666;
+  --clr-neutral-800: #4d4d4d;
+  --clr-neutral-900: #262626;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -60,7 +65,7 @@ body {
 }
 
 .header {
-background-color: var(--clr-ocean-400);
+background-color: var(--clr-ocean-500);
 -webkit-box-shadow: 0 0 2em rgba(0, 0, 0, 0.3);
 box-shadow: 0 0 2em rgba(0, 0, 0, 0.3);
 }

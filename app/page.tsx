@@ -19,7 +19,14 @@ export default function Home() {
     <div className="w-full mx-auto">
       <header className='w-full header'>      
       <div className='w-3/4 mx-auto flex justify-between content-center'>
-        <p className='text-xl pt-3'>Higher Mind</p>
+     <a href="/">
+     <Image
+      src="/assets/site-logo.png"
+      width={200}
+      height={50}
+      alt="Higher Mind"
+    />
+     </a>
       <Navbar />
       </div>
       </header>
