@@ -1,9 +1,8 @@
 import React from 'react';
-import ArrowRight from './arrow-right';
 
-const Card = () => {
+const CardFullWidth = () => {
   return (
-    <div className="max-w-sm p-4 mt-4 bg-white border border-gray-200 rounded shadow dark:bg-gray-800 dark:border-gray-700">
+    <div className="w-full p-4 mt-2 bg-slate-50 border border-gray-200">
         <a href="#">
             <h3 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h3>
         </a>
@@ -13,4 +12,4 @@ const Card = () => {
   )
 }
 
-export default Card;
+export default CardFullWidth;

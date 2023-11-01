@@ -11,6 +11,13 @@
   --clr-ocean-300: #23a9a0;
   --clr-ocean-400: #1a7f78;
   --clr-ocean-500: #115550;
+  --clr-ocean-muted: rgba(17, 85, 80, 0.3);
+  --clr-earth-100: #f99fb6;
+  --clr-earth-200: #f66f91;
+  --clr-earth-300: #f33f6c;
+  --clr-earth-400: #dd0e42;
+  --clr-earth-500: #60061d;
+
 }
 
 @media (prefers-color-scheme: dark) {
@@ -23,12 +30,7 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: linear-gradient(120deg,var(--clr-ocean-muted), transparent);
 }
 
 .app {
@@ -61,4 +63,22 @@ body {
 background-color: var(--clr-ocean-400);
 -webkit-box-shadow: 0 0 2em rgba(0, 0, 0, 0.3);
 box-shadow: 0 0 2em rgba(0, 0, 0, 0.3);
+}
+
+/* TYPOGRAPHY */
+/* @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Poppins&display=swap');
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Archivo Black', sans-serif;
+  font-family: 'Poppins', sans-serif;
+} */
+
+.read-more {
+  color: var(--clr-earth-400);
+  text-transform: uppercase;
+  transition: color 0.3s ease-in-out;
+}
+
+.read-more:hover {
+  color: var(--clr-ocean-400);
 }

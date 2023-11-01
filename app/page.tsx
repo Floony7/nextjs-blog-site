@@ -4,6 +4,7 @@ import Image from 'next/image'
 import Navbar from './components/navbar'
 import styled from 'styled-components';
 import Card from './components/card';
+import CardFullWidth from './components/card-full-width';
 
 const MainGrid = styled.section`
   display: grid;
@@ -23,8 +24,11 @@ export default function Home() {
       </div>
       </header>
       <MainGrid>
-        <div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, nobis repudiandae! Ut expedita rem atque quibusdam velit voluptas repellendus, obcaecati, officia eaque cum, nostrum doloribus. Dolores aliquam ipsa repellat hic!</p></div>
+        <section className="bg-white">
+          <CardFullWidth />
+          <CardFullWidth />
+          <CardFullWidth />
+        </section>
         <div>
         <h3 className="text-2xl pb-2 ps-2">Recent Posts</h3>
         <Card /><Card /><Card />
