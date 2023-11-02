@@ -2,17 +2,9 @@
 
 import Image from 'next/image'
 import Navbar from './components/navbar'
-import styled from 'styled-components';
 import Card from './components/card';
 import CardFullWidth from './components/card-full-width';
-
-const MainGrid = styled.section`
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  width: 75vw;
-  margin: 2rem auto;
-  gap: 0.5rem;
-`;
+import { MainGrid } from './components/styled';
 
 export default function Home() {
   return (

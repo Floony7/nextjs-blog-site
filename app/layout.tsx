@@ -5,9 +5,9 @@ import './globals.css';
 const roboto = Roboto({weight: "500", subsets: ['latin']} );
 
 export const metadata: Metadata = {
-  title: 'TypeScript, React, CSS tips and tricks',
-  keywords: 'typescript, react, CSS tips, javascript, web development tricks, typescript tricks',
-  description: 'TypeScript, React, CSS tips and tricks',
+  title: 'Higher Mind - Science-Based Psychology',
+  keywords: 'psychology, cognitive psychology, self-help nonsense, self-help book reviews, popular psych, popular psychology',
+  description: 'Science-based psychology, cognitive therapy and reviews of popular self-help and psychology books and media.',
   authors: {url: 'http://floony.dev', name: 'Fred Lunjevich'}
 }
 
